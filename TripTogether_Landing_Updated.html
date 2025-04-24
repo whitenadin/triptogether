@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripTogether – Найди попутчика мечты</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f5f9;
+      color: #333;
+    }
+    header {
+      background: #007bff;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    main {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .screenshot {
+      max-width: 80%;
+      margin: 30px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    .cta {
+      margin-top: 40px;
+    }
+    .cta input[type="email"] {
+      padding: 15px;
+      width: 300px;
+      max-width: 80%;
+      border: 2px solid #007bff;
+      border-radius: 8px;
+      margin-right: 10px;
+      font-size: 1rem;
+    }
+    .cta button {
+      padding: 15px 30px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta button:hover {
+      background: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #888;
+      background: #f7f7f7;
+      margin-top: 50px;
+    }
+    .contact-btn {
+      padding: 10px 20px;
+      background: #28a745;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-btn:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TripTogether</h1>
+    <p>Хочешь поехать в путешествие, но не с кем? Мы подберём тебе идеального попутчика по интересам и стилю отдыха.</p>
+  </header>
+
+  <main>
+    <img src="/mnt/data/A_mockup_of_a_mobile_app_named_“Впуть,”_designed_f.png" alt="Прототип приложения" class="screenshot">
+    <div class="cta">
+      <p><strong>Оставь почту – получи ранний доступ первым!</strong></p>
+      <form action="#">
+        <input type="email" placeholder="Ваш email" required>
+        <button type="submit">Хочу найти попутчика</button>
+      </form>
+    </div>
+    <div class="cta" style="margin-top: 40px;">
+      <p><strong>Есть вопросы? Свяжись с нами!</strong></p>
+      <button class="contact-btn" onclick="window.location.href='mailto:contact@triptogether.com'">Написать нам</button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 TripTogether. Все права защищены.
+  </footer>
+</body>
+</html>
