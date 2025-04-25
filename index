@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TripTogether</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f3f4f6, #ffffff);
+      color: #333;
+    }
+    header {
+      background-color: #4A90E2;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+    .card h2 {
+      margin-top: 0;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #4A90E2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #357ABD;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #999;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TripTogether</h1>
+    <p>Находи попутчиков для незабываемых путешествий</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Как это работает?</h2>
+      <p>Укажи направление и даты поездки, и мы поможем найти попутчиков с похожими планами.</p>
+    </div>
+    <div class="card">
+      <h2>Создай поездку</h2>
+      <p>Заполни короткую форму и поделись своими планами. Найдётся кто-то, кто хочет поехать с тобой!</p>
+      <a class="cta-button" href="#">Создать поездку</a>
+    </div>
+    <div class="card">
+      <h2>Ищу компанию</h2>
+      <p>Присоединяйся к уже созданным маршрутам. Путешествовать вместе проще и веселее!</p>
+      <a class="cta-button" href="#">Найти попутчиков</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 TripTogether. Все права защищены.
+  </footer>
+</body>
+</html>
